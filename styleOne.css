@@ -1,0 +1,109 @@
+﻿.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px 300px; /*//move and stretch grid items around and decrease number of rows to fill in spaces*/
+    margin: 2rem auto; /*//flexbox to center, center text*/
+    max-width: 1000px;
+    width: 90%;
+    font-family: 'Gabriela', serif;
+    font-family: 'Flamenco', cursive;
+    font-family: 'Ledger', serif;
+    background-color:peachpuff;
+}
+
+
+.grid-item-1 {
+    grid-column: 1 /span 1;
+    grid-row: 2/span 1;
+    background-color: peachpuff;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+    color: black;
+}
+
+.grid-item-2 {
+    grid-column: 2 /span 1;
+    grid-row: 2/span 1;
+    background-color: peachpuff;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+
+.grid-item-3 {
+    grid-column: 3 /span 1;
+    grid-row: 2/span 1;
+    background-color: peachpuff;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+    color: black;
+}
+
+.grid-item-4 {
+    grid-column: 1 /span 1;
+    grid-row: 3/span 1;
+    background-color: peachpuff;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+
+.grid-item-5 {
+    grid-column: 2 /span 1;
+    grid-row: 3/span 1;
+    background-color: peachpuff;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+    color: black;
+    flex-direction:column;
+}
+
+.grid-item-6 {
+    grid-column: 3 /span 1;
+    grid-row: 3/span 1;
+    background-color: peachpuff;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+
+.grid-item-7 {
+    grid-column: 1 /span 1;
+    grid-row: 4/span 1;
+    background-color: peachpuff;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+    color: black;
+}
+
+.grid-item-8 {
+    grid-column: 2 /span 1;
+    grid-row: 4/span 1;
+    background-color: peachpuff;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+
+.grid-item-9 {
+    grid-column: 3 /span 1;
+    grid-row: 4/span 1;
+    background-color: peachpuff;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    margin-left:100px;
+}
